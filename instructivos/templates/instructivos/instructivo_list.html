@@ -1,0 +1,88 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<form method="GET">
+	{% csrf_token %}
+	<div class="container-fluid">
+		<h1>Instructivos Internos - TGP</h1>
+		{% if grupos %}
+		<div class="row align-items-start justify-content-start w-50">
+			<div class="col">
+					<select name="departamentos" class="form-control">
+					<option value="todos">Todos los dptos</option>
+					{% for grupo in grupos %}
+						<option value="{{grupo}}">{{grupo}}</option>
+					{% endfor %}
+				</select>
+			</div>
+			<div class="col">
+				<input type="submit" name="filtrar_dpto" class="btn btn-primary" value="filtrar por dpto">
+			</div>
+		</div>
+		{% endif %}
+	</div>
+</form>
+
+<div>
+	<div class="container-fluid">
+		<br>
+		{% if request.user.is_authenticated %}
+		<a href="{% url 'admin:instructivos_instructivo_add' %}" class="btn btn-success">+ Agregar</a>
+		{% endif %}
+		{% if dpto_filtro %}
+			<p>Se muestran los resultados para <b>{{dpto_filtro}}</b></p>
+			{% else %}
+			<p>Se muestran los resultados para <b>todos</b></p>
+		{% endif %}
+		{% if object_list %}
+			<div class="d-flex flex-row align-self-stretch text-light bg-dark">
+				<div class="flex-column col-2 border p-1">Departamento</div>
+				<div class="flex-column col-2 border p-1">Título</div>
+				<div class="flex-column col-6 border p-1">Descripción</div>
+				<div class="flex-column col-1 border p-1">Fecha</div>
+				<div class="flex-column col-1 border bg-dark p-1">Acción</div>
+
+			</div>
+		{% for i in object_list %}
+			<div class="d-flex flex-row flex-nowrap align-self-stretch">
+				<div class="flex-column col-2 border p-1"><b>{{i.departamento}}</b></div>
+				<div class="flex-column col-2 border p-1">{{i.titulo}}</div>
+				<div class="flex-column col-6 border p-1">{{i.descripcion}}</div>
+				<div class="flex-column col-1 border p-1">{{i.created|date:'d/m/Y'}}</div>
+						
+				<div class="flex-column col-1 border">
+					<a class="p-1" href="{% url 'instructivos-detail' i.id %}">
+						<img class="icon-table" title="ver" src="{% static 'img/icon/ver.png' %}">
+					</a>
+					{% if request.user.is_authenticated %}	
+					<a class="p-1" href="{% url 'admin:instructivos_instructivo_change' i.id %}">
+						<img class="icon-table" title="editar" src="{% static 'img/icon/editar.png' %}"></a>
+					{% endif %}
+				</div>
+				
+			</div>
+		{% endfor %}
+		{% else %}
+			<p>No hay Instructivos Cargados</p>
+		{% endif %}
+		  <div class="pagination">
+		    <span class="step-links">
+		        {% if page_obj.has_previous %}
+		            <a href="?page=1">&larrb; primera</a>
+		            <a href="?page={{ page_obj.previous_page_number }}">&larr;ant.</a>
+		        {% endif %}
+
+		        <span class="current">
+		            Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}.
+		        </span>
+
+		        {% if page_obj.has_next %}
+		            <a href="?page={{ page_obj.next_page_number }}">&rarr; sig.</a>
+		            <a href="?page={{ page_obj.paginator.num_pages }}">última &rarrb;</a>
+		        {% endif %}
+		    </span>
+ 		  </div>
+	</div>
+
+</div>
+{% endblock %}

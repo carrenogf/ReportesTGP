@@ -1,0 +1,215 @@
+<table border=1 width="100%">
+                                                      <tr>
+                                                      <th align="left" bgcolor="#C0C0C0" bordercolor="#FFFFFF">REP</th>
+                                                      <th align="left" bgcolor="#C0C0C0" bordercolor="#FFFFFF">DESCRIPCION</th>
+                                                      <th align="left" bgcolor="#C0C0C0" bordercolor="#FFFFFF">BRUTO</th>
+                                                      <th align="left" bgcolor="#C0C0C0" bordercolor="#FFFFFF">LIQIUIDO</th>
+                                                      <th align="left" bgcolor="#C0C0C0" bordercolor="#FFFFFF">PENSION</th>
+                                                      <th align="left" bgcolor="#C0C0C0" bordercolor="#FFFFFF">DEVGAN</th>
+                                                      <th align="left" bgcolor="#C0C0C0" bordercolor="#FFFFFF">LIQPEN</th>
+                                                      </tr>
+<tr><td>1</td><td>SECRETARIA GENERAL DE LA GOBERNACION</td><td>1738953,94</td><td>1738953,94</td><td>0</td><td>0</td><td>1738953,94</td></tr>
+<tr><td>2</td><td>MINISTERIO DE GOBIERNO EDUC.Y JUST.               </td><td>1119003,5</td><td>1119003,5</td><td>0</td><td>0</td><td>1119003,5</td></tr>
+<tr><td>3</td><td>FISCALIA DE ESTADO                                </td><td>821403,89</td><td>819283,71</td><td>2120,18</td><td>0</td><td>821403,89</td></tr>
+<tr><td>4</td><td>REG DEL EST.CIVIL Y CAP.DE LAS PERS.              </td><td>809055,75</td><td>793533,76</td><td>15521,99</td><td>0</td><td>809055,75</td></tr>
+<tr><td>7</td><td>DIRECCION DE ARCHIVO DEL PODER EJECUTIVO          </td><td>70454,72</td><td>70454,72</td><td>0</td><td>0</td><td>70454,72</td></tr>
+<tr><td>8</td><td>SECRETARIA DE ESTADO DE HACIENDA                  </td><td>196177,44</td><td>195330,15</td><td>847,29</td><td>0</td><td>196177,44</td></tr>
+<tr><td>9</td><td>DIRECCION GENERAL DE SISTEMAS                     </td><td>105793,73</td><td>103072,94</td><td>2720,79</td><td>0</td><td>105793,73</td></tr>
+<tr><td>15</td><td>DIRECCION PROVINCIAL DE DEFENSA CIVIL                        </td><td>240293,52</td><td>233730,86</td><td>6562,66</td><td>0</td><td>240293,52</td></tr>
+<tr><td>16</td><td>SECRETARIA DE ESTADO DE MEDIO AMBIENTE</td><td>341537,21</td><td>341537,21</td><td>0</td><td>0</td><td>341537,21</td></tr>
+<tr><td>17</td><td>DIR.DE MAT.Y CONST.ESCOLARES - S.E.O.S.P -        </td><td>951258,92</td><td>926882,84</td><td>24376,08</td><td>0</td><td>951258,92</td></tr>
+<tr><td>20</td><td>DIRECCION DE REGISTRO INMOBILIARIO                </td><td>159365,78</td><td>159365,78</td><td>0</td><td>0</td><td>159365,78</td></tr>
+<tr><td>21</td><td>SECRETARIA DE ESTADO DE EDUCACION                 </td><td>2903159,39</td><td>2884525,26</td><td>18634,13</td><td>0</td><td>2903159,39</td></tr>
+<tr><td>24</td><td>RED PRESIDENCIA DE LA NACION                      </td><td>7741,7</td><td>3888,56</td><td>3853,14</td><td>0</td><td>7741,7</td></tr>
+<tr><td>29</td><td>REPRES.OFICIAL DE LA PCIA-CAP.FEDERAL             </td><td>292018,7</td><td>292018,7</td><td>0</td><td>0</td><td>292018,7</td></tr>
+<tr><td>30</td><td>DIRECCION DE ESCRIBANIA DE GOBIERNO               </td><td>28289,96</td><td>28289,96</td><td>0</td><td>0</td><td>28289,96</td></tr>
+<tr><td>31</td><td>MINISTERIO DE ECONOMIA                            </td><td>2017150,03</td><td>2009522,22</td><td>7627,81</td><td>0</td><td>2017150,03</td></tr>
+<tr><td>32</td><td>CONTADURIA GENERAL                                </td><td>431974,64</td><td>427037,43</td><td>4937,21</td><td>0</td><td>431974,64</td></tr>
+<tr><td>33</td><td>TESORERIA GENERAL                                 </td><td>334185,41</td><td>332319,47</td><td>1865,94</td><td>0</td><td>334185,41</td></tr>
+<tr><td>34</td><td>DIRECCION GENERAL DE RENTAS                       </td><td>2015619,38</td><td>2002124,93</td><td>13494,45</td><td>0</td><td>2015619,38</td></tr>
+<tr><td>35</td><td>DIRECCION GRAL DE RECURSOS HUMANOS                </td><td>162684,8</td><td>162684,8</td><td>0</td><td>0</td><td>162684,8</td></tr>
+<tr><td>36</td><td>DIRECCION DE ESTADISTICAS                         </td><td>169953,98</td><td>168311,11</td><td>1642,87</td><td>0</td><td>169953,98</td></tr>
+<tr><td>40</td><td>SUBSECR.DE ASUNTOS AGRARIOS Y ALIMENTOS           </td><td>412,59</td><td>412,59</td><td>0</td><td>0</td><td>412,59</td></tr>
+<tr><td>41</td><td>DIRECCION DEL AGUA                                </td><td>500414,76</td><td>500414,76</td><td>0</td><td>0</td><td>500414,76</td></tr>
+<tr><td>42</td><td>SECRETARIA DE ESTADO DE TRABAJO                   </td><td>632537,65</td><td>628853,67</td><td>3683,98</td><td>0</td><td>632537,65</td></tr>
+<tr><td>43</td><td>SECRETARIA DE ESTADO DE MIPyME Y EMPLEO   </td><td>345590,63</td><td>345590,63</td><td>0</td><td>0</td><td>345590,63</td></tr>
+<tr><td>44</td><td>DCCION DE ARQUITECTURA Y URBANISMO                </td><td>600409,37</td><td>587484,23</td><td>12925,14</td><td>0</td><td>600409,37</td></tr>
+<tr><td>45</td><td>DIRECCION DE TRANSPORTE                           </td><td>199737,45</td><td>199737,45</td><td>0</td><td>0</td><td>199737,45</td></tr>
+<tr><td>46</td><td>SEC. DE EST. DE OBRAS Y SERVICIOS PUBLICOS        </td><td>326355,3</td><td>319802,03</td><td>6553,27</td><td>0</td><td>326355,3</td></tr>
+<tr><td>47</td><td>DIRECCION DE COMERCIO INTERIOR                    </td><td>255578,09</td><td>255578,09</td><td>0</td><td>0</td><td>255578,09</td></tr>
+<tr><td>48</td><td>DCCION.DE RECURSOS ENERGETICOS Y MINERIA          </td><td>24476,47</td><td>24476,47</td><td>0</td><td>0</td><td>24476,47</td></tr>
+<tr><td>49</td><td>DIRECCION GENERAL DE RENTAS  -RECEPTORIAS-        </td><td>81728,45</td><td>81728,45</td><td>0</td><td>0</td><td>81728,45</td></tr>
+<tr><td>50</td><td>DEST. POLICIAL DE VIALIDAD PROVINCIAL             </td><td>241486,75</td><td>235388,85</td><td>6097,9</td><td>0</td><td>241486,75</td></tr>
+<tr><td>54</td><td>DEST. POLICIAL CAJA POPULAR                       </td><td>642137,54</td><td>621217,36</td><td>20920,18</td><td>0</td><td>642137,54</td></tr>
+<tr><td>56</td><td>SECR.DE EST.DE COORD.CON MUN.Y COMUNAS R.         </td><td>159839,45</td><td>157193,87</td><td>2645,58</td><td>0</td><td>159839,45</td></tr>
+<tr><td>58</td><td>DCCION GENERAL DE PRESUPUESTO                     </td><td>109762,24</td><td>109762,24</td><td>0</td><td>0</td><td>109762,24</td></tr>
+<tr><td>60</td><td>SEC.DE EST.DE OBRAS Y S.PUBLICOS -P.TEMP.-        </td><td>39072,48</td><td>39072,48</td><td>0</td><td>0</td><td>39072,48</td></tr>
+<tr><td>61</td><td>MINISTERIO DE DESARROLLO PRODUCTIVO               </td><td>369431,6</td><td>369431,6</td><td>0</td><td>0</td><td>369431,6</td></tr>
+<tr><td>63</td><td>DIRECCION DE POLITICA FISCAL                      </td><td>97687,75</td><td>97687,75</td><td>0</td><td>0</td><td>97687,75</td></tr>
+<tr><td>71</td><td>DIRECCION MEDIO AMBIENTE                          </td><td>69605,4</td><td>69605,4</td><td>0</td><td>0</td><td>69605,4</td></tr>
+<tr><td>72</td><td>DCCION GENERAL DE CATASTRO                        </td><td>535020,27</td><td>529395,45</td><td>5624,82</td><td>0</td><td>535020,27</td></tr>
+<tr><td>73</td><td>PATRONATO DE INTERNOS Y LIBERADOS                 </td><td>133908,17</td><td>133908,17</td><td>0</td><td>0</td><td>133908,17</td></tr>
+<tr><td>77</td><td>ENTE DE INFRAESTRUCTURA COMUNITARIA</td><td>611402,61</td><td>611402,61</td><td>0</td><td>0</td><td>611402,61</td></tr>
+<tr><td>79</td><td>DIRECCION DE ORGANIZACION Y METODOS               </td><td>86282,85</td><td>81246,93</td><td>5035,92</td><td>0</td><td>86282,85</td></tr>
+<tr><td>84</td><td>MANT. REPARAC. E. OBRAS D.A.U.                    </td><td>212130,89</td><td>212130,89</td><td>0</td><td>0</td><td>212130,89</td></tr>
+<tr><td>94</td><td>SEC. FISCAL. Y CONTROL DE GESTION</td><td>255246,63</td><td>255246,63</td><td>0</td><td>0</td><td>255246,63</td></tr>
+<tr><td>95</td><td>SEC.DE EST.DE PLANIF.Y REL.INTERINSTITUC. </td><td>31443,36</td><td>31443,36</td><td>0</td><td>0</td><td>31443,36</td></tr>
+<tr><td>96</td><td>SECRETARIA DE ESTADO DE GRANDES COMUNAS</td><td>96869,12</td><td>96869,12</td><td>0</td><td>0</td><td>96869,12</td></tr>
+<tr><td>97</td><td>MINISTERIO DE INTERIOR</td><td>1070540,46</td><td>1064792,64</td><td>5747,82</td><td>0</td><td>1070540,46</td></tr>
+<tr><td>98</td><td>SUBSECRETARIA DE EMPLEO</td><td>39432,59</td><td>39432,59</td><td>0</td><td>0</td><td>39432,59</td></tr>
+<tr><td>100</td><td>DIRECCION PROVINCIAL DE AERONAUTICA               </td><td>543244,81</td><td>542682,6</td><td>562,21</td><td>0</td><td>543244,81</td></tr>
+<tr><td>110</td><td>SEC. DE ESTADO DE GESTION PUBLICA Y PLANEAMIENTO</td><td>685543,55</td><td>684674,54</td><td>869,01</td><td>0</td><td>685543,55</td></tr>
+<tr><td>111</td><td>SEC. DE ESTADO DE COMUNICACION PUBLICA</td><td>594390,72</td><td>588671,86</td><td>5718,86</td><td>0</td><td>594390,72</td></tr>
+<tr><td>115</td><td>SECRETARIA DE DESARROLO PRODUCTIVO                </td><td>648237,44</td><td>641333,64</td><td>6903,8</td><td>0</td><td>648237,44</td></tr>
+<tr><td>134</td><td>DIRECCION DE RECURSOS HIDRICOS                    </td><td>430082,98</td><td>429617,05</td><td>465,93</td><td>0</td><td>430082,98</td></tr>
+<tr><td>149</td><td>SECRETARIA DE ESTADO DE SEGURIDAD</td><td>12499,33</td><td>10896,35</td><td>1602,98</td><td>0</td><td>12499,33</td></tr>
+<tr><td>151</td><td>MINISTERIO DE DESARROLLO SOCIAL             </td><td>1577130,73</td><td>1563461,57</td><td>13669,16</td><td>0</td><td>1577130,73</td></tr>
+<tr><td>152</td><td>SECR.DE ESTADO DE PREV.Y ASIST.DE LA ADIC.        </td><td>664732,82</td><td>654189,63</td><td>10543,19</td><td>0</td><td>664732,82</td></tr>
+<tr><td>153</td><td>SEC.DE EST.DE DERECHOS HUMANOS                    </td><td>301753,79</td><td>291866,95</td><td>9886,84</td><td>0</td><td>301753,79</td></tr>
+<tr><td>154</td><td>SECR.DE EST.DE TRANSPORTE Y SEGURIDAD VIAL        </td><td>68321,42</td><td>68321,42</td><td>0</td><td>0</td><td>68321,42</td></tr>
+<tr><td>156</td><td>DEST.POLICIAL INST.SEG.SOCIAL PCIA                </td><td>195822,64</td><td>193498,27</td><td>2324,37</td><td>0</td><td>195822,64</td></tr>
+<tr><td>157</td><td>SEC. DE ESTADO DE GOBIERNO Y JUSTICIA             </td><td>367343,01</td><td>367343,01</td><td>0</td><td>0</td><td>367343,01</td></tr>
+<tr><td>165</td><td>MINISTERIO DE SALUD PUBLICA                       </td><td>260295,42</td><td>260295,42</td><td>0</td><td>0</td><td>260295,42</td></tr>
+<tr><td>173</td><td>SUB-SECRETARIA DE DEPORTES                        </td><td>98725,3</td><td>98725,3</td><td>0</td><td>0</td><td>98725,3</td></tr>
+<tr><td>176</td><td>SUB-SEC-DEPORTES,TURISMO Y RECR.-CONTRATA-        </td><td>4917,11</td><td>4917,11</td><td>0</td><td>0</td><td>4917,11</td></tr>
+<tr><td>178</td><td>CTRO.RECEP.MENORES 25 DE MAYO CONCEPCION          </td><td>153493,39</td><td>153243,28</td><td>250,11</td><td>0</td><td>153493,39</td></tr>
+<tr><td>180</td><td>INSTITUTO DE PUERICULTURA ALFREDO GUZMAN          </td><td>399018,98</td><td>398047,01</td><td>971,97</td><td>0</td><td>399018,98</td></tr>
+<tr><td>181</td><td>H. ESC. EVA PERON-C.RECR.SAN LUIS GONZAGA         </td><td>238665,12</td><td>238665,12</td><td>0</td><td>0</td><td>238665,12</td></tr>
+<tr><td>183</td><td>H. JUV.Y ESC. DE APRENDIZ.GENERAL BELGRANO        </td><td>212465,09</td><td>211884,74</td><td>580,35</td><td>0</td><td>212465,09</td></tr>
+<tr><td>184</td><td>HOGAR AGROMECANICO DE TAFI VIEJO                  </td><td>10932,11</td><td>10932,11</td><td>0</td><td>0</td><td>10932,11</td></tr>
+<tr><td>185</td><td>H.DE TRANS.P/LA MENOR MADRE .STA.MICAELA          </td><td>33348,13</td><td>33348,13</td><td>0</td><td>0</td><td>33348,13</td></tr>
+<tr><td>186</td><td>C.RECEP.MENORES SANTA MARIA GORETTI               </td><td>207274,62</td><td>207274,62</td><td>0</td><td>0</td><td>207274,62</td></tr>
+<tr><td>187</td><td>INST. ADORATRIZ DE PROTECCION A LA JOVEN          </td><td>48428,07</td><td>48428,07</td><td>0</td><td>0</td><td>48428,07</td></tr>
+<tr><td>188</td><td>HOGAR DEL DISCAPACITADO - SAN BENITO-             </td><td>173519,18</td><td>172846,27</td><td>672,91</td><td>0</td><td>173519,18</td></tr>
+<tr><td>189</td><td>INSTITUTO GERONTOLOGICO -SAN ALBERTO-             </td><td>375697,96</td><td>372833,02</td><td>2864,94</td><td>0</td><td>375697,96</td></tr>
+<tr><td>190</td><td>HOGAR DE NIÛAS - SANTA RITA-                      </td><td>151678,34</td><td>151678,34</td><td>0</td><td>0</td><td>151678,34</td></tr>
+<tr><td>191</td><td>FONDO DE EDUCACION Y PROMOCION COOP.              </td><td>76806,75</td><td>76378,5</td><td>428,25</td><td>0</td><td>76806,75</td></tr>
+<tr><td>192</td><td>C.R.C.M. JULIO A. ROCA                            </td><td>542070,83</td><td>539091,49</td><td>2979,34</td><td>0</td><td>542070,83</td></tr>
+<tr><td>194</td><td>TALLERES PROTEGIDOS                               </td><td>89894,03</td><td>79876,74</td><td>10017,29</td><td>0</td><td>89894,03</td></tr>
+<tr><td>203</td><td>SEC.DE EST.DE INNOVACION Y DES.TECNOLOGICO        </td><td>156096,58</td><td>156096,58</td><td>0</td><td>0</td><td>156096,58</td></tr>
+<tr><td>204</td><td>SEC. DE ESTADO DE RELACIONES INTERNACIONALES</td><td>161292,78</td><td>161292,78</td><td>0</td><td>0</td><td>161292,78</td></tr>
+<tr><td>212</td><td>DEPARTAMENTO GENERAL DE POLICIA                   </td><td>115657196,61</td><td>111470887,78</td><td>4186308,83</td><td>0</td><td>115657196,61</td></tr>
+<tr><td>213</td><td>DCCION. GRAL. DE INSTITUTOS PENALES               </td><td>7397736,84</td><td>7397736,84</td><td>0</td><td>0</td><td>7397736,84</td></tr>
+<tr><td>214</td><td>ENTE CULTURAL DE TUCUMAN                        </td><td>1801547,07</td><td>1766022,36</td><td>35524,71</td><td>0</td><td>1801547,07</td></tr>
+<tr><td>215</td><td>INSTITUTOS PENALES -GERENTE DE PRODUCCION-        </td><td>4657241,78</td><td>4657241,78</td><td>0</td><td>0</td><td>4657241,78</td></tr>
+<tr><td>216</td><td>ENTE CULTURAL DE TUCUMAN - PERSONAL TEMPORARIO             </td><td>1437862,41</td><td>1429519,07</td><td>8343,34</td><td>0</td><td>1437862,41</td></tr>
+<tr><td>217</td><td>DPTO. GENERAL DE POLICIA - PERSONAL CIVIL         </td><td>68174,41</td><td>68174,41</td><td>0</td><td>0</td><td>68174,41</td></tr>
+<tr><td>221</td><td>INST.DE DESARROLLO PRODUCTIVO DE TUCUMAN          </td><td>433815,75</td><td>433815,75</td><td>0</td><td>0</td><td>433815,75</td></tr>
+<tr><td>288</td><td>DIR  DE MAT y CONST. ESCOLARES - S.E.O.S.P-</td><td>50246,03</td><td>50246,03</td><td>0</td><td>0</td><td>50246,03</td></tr>
+<tr><td>324</td><td>ARCHIVO GENERAL DE LA PROVINCIA                   </td><td>63061,53</td><td>62494,01</td><td>567,52</td><td>0</td><td>63061,53</td></tr>
+<tr><td>325</td><td>ARCHIVO HISTORICO DE LA PROVINCIA                 </td><td>30048,54</td><td>30048,54</td><td>0</td><td>0</td><td>30048,54</td></tr>
+<tr><td>327</td><td>SEC.DE EST. DE NI•EZ, ADOLESC. Y FLIA</td><td>2750360,53</td><td>2745988,19</td><td>4372,34</td><td>0</td><td>2750360,53</td></tr>
+<tr><td>328</td><td>SEC. DE EST.DE ARTIC.TERRITORIAL Y D.LOCAL</td><td>1035707,41</td><td>1032316,66</td><td>3390,75</td><td>0</td><td>1035707,41</td></tr>
+<tr><td>330</td><td>SEC.DE EST.DE GESTION ADMINISTRATIVA</td><td>1163969,41</td><td>1156762,97</td><td>7206,44</td><td>0</td><td>1163969,41</td></tr>
+<tr><td>331</td><td>SEC. TRABAJO - RIESGO DE TRABAJO</td><td>89914,76</td><td>89914,76</td><td>0</td><td>0</td><td>89914,76</td></tr>
+<tr><td>333</td><td>SAF SUBDIR. DE ADM. FINAN. DE HOGARES e INSTITUTOS</td><td>8851,25</td><td>8851,25</td><td>0</td><td>0</td><td>8851,25</td></tr>
+<tr><td>336</td><td>SESOP - SERVICIO DE SALUD OCUPACIONAL PROVINCIAL</td><td>307812,58</td><td>307812,58</td><td>0</td><td>0</td><td>307812,58</td></tr>
+<tr><td>340</td><td>INST. PROMOCION DEL AZUCAR Y ALCOHOL DE TUCUMAN</td><td>412775,95</td><td>407573,29</td><td>5202,66</td><td>0</td><td>412775,95</td></tr>
+<tr><td>341</td><td>DPA - PERSONAL TEMPORARIO</td><td>95439,79</td><td>95439,79</td><td>0</td><td>0</td><td>95439,79</td></tr>
+<tr><td>342</td><td>SAFYC 37 - CIIDEPT</td><td>66625,4</td><td>59041,78</td><td>7583,62</td><td>0</td><td>66625,4</td></tr>
+<tr><td>343</td><td>SEC. DE EST. DE SANEAMIENTO y MEJORAMIENTO DE ESPACIOS PUBLICOS</td><td>794411,54</td><td>792966,85</td><td>1444,69</td><td>0</td><td>794411,54</td></tr>
+<tr><td>345</td><td>ENTE AUT. TEATRO MERCEDES SOSA</td><td>210703,62</td><td>210703,62</td><td>0</td><td>0</td><td>210703,62</td></tr>
+<tr><td>352</td><td>DIRECCION DE ESCUELA DE GOB. DE LA PROVINCIA </td><td>30443,03</td><td>30443,03</td><td>0</td><td>0</td><td>30443,03</td></tr>
+<tr><td>353</td><td>SEC. DE ESTADO DE LAS MUJERES, GENERO Y DIVERSIDADES</td><td>292912,93</td><td>292912,93</td><td>0</td><td>0</td><td>292912,93</td></tr>
+<tr><td>354</td><td>MINISTERIO DE SEGURIDAD</td><td>1088805,75</td><td>1084192,57</td><td>4613,18</td><td>0</td><td>1088805,75</td></tr>
+<tr><td>355</td><td>SECRETARIA DE ESTADO DE PARTICIPACION CIUDADANA</td><td>92869,54</td><td>92869,54</td><td>0</td><td>0</td><td>92869,54</td></tr>
+<tr><td>358</td><td>PUERTO A</td><td>216765,25</td><td>216765,25</td><td>0</td><td>0</td><td>216765,25</td></tr>
+<tr><td>359</td><td>UNREL GOBERNACION</td><td>14618938,16</td><td>14618938,16</td><td>0</td><td>0</td><td>14618938,16</td></tr>
+<tr><td>360</td><td>SEC. DE ESTADO UNIDAD EJEC. DE PROGRAMAS Y PROYECTOS SOCIALES</td><td>44446,52</td><td>44446,52</td><td>0</td><td>0</td><td>44446,52</td></tr>
+<tr><td>361</td><td>MINISTERIO DE OBRAS y SERVICIOS PUBLICOS</td><td>263284,66</td><td>263284,66</td><td>0</td><td>0</td><td>263284,66</td></tr>
+<tr><td>800</td><td>SEPAPYS                                           </td><td>1300768,48</td><td>1271791,83</td><td>28976,65</td><td>0</td><td>1300768,48</td></tr>
+<tr><td>801</td><td>SEPAPYS - PERSONAL TEMPORARIO                     </td><td>28742,66</td><td>28742,66</td><td>0</td><td>0</td><td>28742,66</td></tr>
+<tr><td>900</td><td>COMUNA CAPITAN CACERES                            </td><td>101825,24</td><td>101825,24</td><td>0</td><td>0</td><td>101825,24</td></tr>
+<tr><td>901</td><td>COMUNA PAMPA MAYO                                 </td><td>59677,45</td><td>58597,96</td><td>1079,49</td><td>0</td><td>59677,45</td></tr>
+<tr><td>902</td><td>COMUNA EL MANANTIAL                               </td><td>509564,61</td><td>507400,98</td><td>2163,63</td><td>0</td><td>509564,61</td></tr>
+<tr><td>903</td><td>COMUNA SAN FELIPE Y SANTA BARBARA                 </td><td>224853,36</td><td>222104,52</td><td>2748,84</td><td>0</td><td>224853,36</td></tr>
+<tr><td>904</td><td>COMUNA SAN JAVIER-DPTO.YERBA BUENA                </td><td>548092,17</td><td>543825,75</td><td>4266,42</td><td>0</td><td>548092,17</td></tr>
+<tr><td>905</td><td>COMUNA LOS SARMIENTOS-LA TIPA                     </td><td>636714,29</td><td>636714,29</td><td>0</td><td>0</td><td>636714,29</td></tr>
+<tr><td>906</td><td>COMUNA EL TIMBO                                   </td><td>336825,95</td><td>335377,43</td><td>1448,52</td><td>0</td><td>336825,95</td></tr>
+<tr><td>907</td><td>COMUNA LOS RALOS</td><td>370017,49</td><td>370017,49</td><td>0</td><td>0</td><td>370017,49</td></tr>
+<tr><td>908</td><td>COMUNA VILLA CHICLIGASTA                          </td><td>195008,01</td><td>194085,79</td><td>922,22</td><td>0</td><td>195008,01</td></tr>
+<tr><td>909</td><td>COMUNA SUBTENIENTE BERDINA                        </td><td>102967,85</td><td>100404,94</td><td>2562,91</td><td>0</td><td>102967,85</td></tr>
+<tr><td>910</td><td>COMUNA DE SAN ANDRES                              </td><td>747857,55</td><td>739595,86</td><td>8261,69</td><td>0</td><td>747857,55</td></tr>
+<tr><td>911</td><td>COMUNA EL POLEAR                                  </td><td>129143,28</td><td>129143,28</td><td>0</td><td>0</td><td>129143,28</td></tr>
+<tr><td>912</td><td>COMUNA LAMADRID                                  </td><td>232719,81</td><td>230714,92</td><td>2004,89</td><td>0</td><td>232719,81</td></tr>
+<tr><td>913</td><td>COMUNA ESQUINA Y MANCOPA                          </td><td>660197,71</td><td>658414,55</td><td>1783,16</td><td>0</td><td>660197,71</td></tr>
+<tr><td>914</td><td>COMUNA VILLA PADRE MONTI                          </td><td>1442839,24</td><td>1435703,35</td><td>7135,89</td><td>0</td><td>1442839,24</td></tr>
+<tr><td>915</td><td>COMUNA LOS NOGALES                                </td><td>256460,87</td><td>254622,75</td><td>1838,12</td><td>0</td><td>256460,87</td></tr>
+<tr><td>916</td><td>COMUNA ALTO VERDE-LOS GUCHEAS                     </td><td>260292,99</td><td>259058,45</td><td>1234,54</td><td>0</td><td>260292,99</td></tr>
+<tr><td>917</td><td>COMUNA LOS PUESTOS                                </td><td>572269,56</td><td>568264,83</td><td>4004,73</td><td>0</td><td>572269,56</td></tr>
+<tr><td>918</td><td>COMUNA SAN PEDRO Y SAN ANTONIO                    </td><td>432953,65</td><td>428652,08</td><td>4301,57</td><td>0</td><td>432953,65</td></tr>
+<tr><td>919</td><td>COMUNA SAN JOSE DE LA COCHA                       </td><td>512737,4</td><td>504969,89</td><td>7767,51</td><td>0</td><td>512737,4</td></tr>
+<tr><td>920</td><td>COMUNA LA ESPERANZA                               </td><td>321206,22</td><td>317838,89</td><td>3367,33</td><td>0</td><td>321206,22</td></tr>
+<tr><td>921</td><td>COMUNA DE ATAHONA                                 </td><td>149069,51</td><td>148430,64</td><td>638,87</td><td>0</td><td>149069,51</td></tr>
+<tr><td>922</td><td>COMUNA DE SANTA ANA                               </td><td>661633,66</td><td>654545,42</td><td>7088,24</td><td>0</td><td>661633,66</td></tr>
+<tr><td>923</td><td>COMUNA DE CHOROMORO                               </td><td>327752,15</td><td>326278,75</td><td>1473,4</td><td>0</td><td>327752,15</td></tr>
+<tr><td>924</td><td>COMUNA MONTE BELLO                                </td><td>307063,94</td><td>302446,25</td><td>4617,69</td><td>0</td><td>307063,94</td></tr>
+<tr><td>925</td><td>COMUNA QUILMES Y SUELDOS                          </td><td>725188,4</td><td>716840,75</td><td>8347,65</td><td>0</td><td>725188,4</td></tr>
+<tr><td>926</td><td>COMUNA DE AMBERES                                 </td><td>91294,82</td><td>91294,82</td><td>0</td><td>0</td><td>91294,82</td></tr>
+<tr><td>927</td><td>COMUNA DE MONTEAGUDO                              </td><td>340547,29</td><td>336768,08</td><td>3779,21</td><td>0</td><td>340547,29</td></tr>
+<tr><td>928</td><td>COMUNA LA TRINIDAD Y MEDINA                       </td><td>303056,65</td><td>295358,49</td><td>7698,16</td><td>0</td><td>303056,65</td></tr>
+<tr><td>929</td><td>COMUNA SOLDADO MALDONADO                          </td><td>171669,75</td><td>171350,32</td><td>319,43</td><td>0</td><td>171669,75</td></tr>
+<tr><td>930</td><td>COMUNA SANTA ROSA-LAGUNA BLANCA                   </td><td>469377,32</td><td>468771,46</td><td>605,86</td><td>0</td><td>469377,32</td></tr>
+<tr><td>931</td><td>COMUNA DE BUENA VISTA                             </td><td>125170,39</td><td>120179,24</td><td>4991,15</td><td>0</td><td>125170,39</td></tr>
+<tr><td>932</td><td>COMUNA EL NARANJO-EL SUNCHAL                      </td><td>571030,68</td><td>565442,49</td><td>5588,19</td><td>0</td><td>571030,68</td></tr>
+<tr><td>933</td><td>COMUNA SARGENTO MOYA                              </td><td>164714,5</td><td>164107,57</td><td>606,93</td><td>0</td><td>164714,5</td></tr>
+<tr><td>934</td><td>COMUNA DE RACO                                    </td><td>264874,09</td><td>262357,69</td><td>2516,4</td><td>0</td><td>264874,09</td></tr>
+<tr><td>935</td><td>COMUNA GASTONA Y BELICHA                          </td><td>364836,6</td><td>360566,72</td><td>4269,88</td><td>0</td><td>364836,6</td></tr>
+<tr><td>936</td><td>COMUNA DE YANIMA                                  </td><td>133390,18</td><td>131003,86</td><td>2386,32</td><td>0</td><td>133390,18</td></tr>
+<tr><td>937</td><td>COMUNA VILLA DE LEALES                            </td><td>371912,35</td><td>370608,22</td><td>1304,13</td><td>0</td><td>371912,35</td></tr>
+<tr><td>938</td><td>COMUNA SAN PABLO-VILLA NOUGUES                    </td><td>740890,67</td><td>734135,87</td><td>6754,8</td><td>0</td><td>740890,67</td></tr>
+<tr><td>939</td><td>COMUNA LA RAMADA-LA CRUZ                          </td><td>617082,13</td><td>608518,15</td><td>8563,98</td><td>0</td><td>617082,13</td></tr>
+<tr><td>940</td><td>COMUNA MANUELA PEDRAZA                            </td><td>627909,95</td><td>624704,76</td><td>3205,19</td><td>0</td><td>627909,95</td></tr>
+<tr><td>941</td><td>COMUNA MANUEL GARCIA FERNANDEZ                    </td><td>268738,01</td><td>266573,2</td><td>2164,81</td><td>0</td><td>268738,01</td></tr>
+<tr><td>942</td><td>COMUNA DE CEBIL REDONDO                           </td><td>687371,18</td><td>673474,2</td><td>13896,98</td><td>0</td><td>687371,18</td></tr>
+<tr><td>943</td><td>COMUNA LAS CEJAS                                  </td><td>398306,37</td><td>394896,68</td><td>3409,69</td><td>0</td><td>398306,37</td></tr>
+<tr><td>944</td><td>COMUNA DE TAPIA                                   </td><td>321248,45</td><td>320331,29</td><td>917,16</td><td>0</td><td>321248,45</td></tr>
+<tr><td>945</td><td>COMUNA EL NARANJITO-C.ALTA                        </td><td>735576,61</td><td>731938,83</td><td>3637,78</td><td>0</td><td>735576,61</td></tr>
+<tr><td>946</td><td>COMUNA EL PUESTITO                                </td><td>355116,55</td><td>349339,69</td><td>5776,86</td><td>0</td><td>355116,55</td></tr>
+<tr><td>947</td><td>COMUNA DE COLALAO DEL VALLE                       </td><td>166942,64</td><td>166591,97</td><td>350,67</td><td>0</td><td>166942,64</td></tr>
+<tr><td>948</td><td>COMUNA RIO COLORADO                               </td><td>404560,31</td><td>401283,35</td><td>3276,96</td><td>0</td><td>404560,31</td></tr>
+<tr><td>949</td><td>COMUNA AMAICHA DEL VALLE                          </td><td>229121,26</td><td>228808,32</td><td>312,94</td><td>0</td><td>229121,26</td></tr>
+<tr><td>950</td><td>COMUNA YERBA BUENA-SIMOCA-                        </td><td>227371,93</td><td>225797,49</td><td>1574,44</td><td>0</td><td>227371,93</td></tr>
+<tr><td>951</td><td>COMUNA LEON ROUGES                                </td><td>315329,81</td><td>303901,08</td><td>11428,73</td><td>0</td><td>315329,81</td></tr>
+<tr><td>952</td><td>COMUNA AGUA DULCE-LA SOLEDAD                      </td><td>565458,96</td><td>563220,41</td><td>2238,55</td><td>0</td><td>565458,96</td></tr>
+<tr><td>953</td><td>COMUNA VILLA QUINTEROS                            </td><td>1022399,29</td><td>1011873,46</td><td>10525,83</td><td>0</td><td>1022399,29</td></tr>
+<tr><td>954</td><td>COMUNA LOS GOMEZ                                  </td><td>436473,01</td><td>435642,76</td><td>830,25</td><td>0</td><td>436473,01</td></tr>
+<tr><td>955</td><td>COMUNA DE RANCHILLOS-SAN MIGUEL                   </td><td>498415,92</td><td>492538,14</td><td>5877,78</td><td>0</td><td>498415,92</td></tr>
+<tr><td>956</td><td>COMUNA EL BRACHO Y EL CEVILAR                     </td><td>281536,61</td><td>281245,05</td><td>291,56</td><td>0</td><td>281536,61</td></tr>
+<tr><td>957</td><td>COMUNA ALPACHIRI-EL MOLINO-CHICLIGASTA            </td><td>405302,22</td><td>403240,09</td><td>2062,13</td><td>0</td><td>405302,22</td></tr>
+<tr><td>958</td><td>COMUNA RIO CHICO-NUEVA TRINIDAD                   </td><td>483945,5</td><td>481597,72</td><td>2347,78</td><td>0</td><td>483945,5</td></tr>
+<tr><td>959</td><td>COMUNA DE TACO RALO                               </td><td>319376,21</td><td>316671,71</td><td>2704,5</td><td>0</td><td>319376,21</td></tr>
+<tr><td>960</td><td>COMUNA DE LOS SOSAS                               </td><td>1456733,85</td><td>1449135,31</td><td>7598,54</td><td>0</td><td>1456733,85</td></tr>
+<tr><td>961</td><td>COMUNA DELFIN GALLO                               </td><td>1351962,39</td><td>1334263,03</td><td>17699,36</td><td>0</td><td>1351962,39</td></tr>
+<tr><td>962</td><td>COMUNA BENJAMIN ARAOZ Y EL TAJAMAR                </td><td>226216,41</td><td>225126</td><td>1090,41</td><td>0</td><td>226216,41</td></tr>
+<tr><td>963</td><td>COMUNA EL CADILLAL                                </td><td>443180,82</td><td>433041,52</td><td>10139,3</td><td>0</td><td>443180,82</td></tr>
+<tr><td>964</td><td>COMUNA DE ARCADIA                                 </td><td>773074,99</td><td>767205,54</td><td>5869,45</td><td>0</td><td>773074,99</td></tr>
+<tr><td>965</td><td>COMUNA GOBERNADOR PIEDRABUENA                     </td><td>664321,14</td><td>661800,83</td><td>2520,31</td><td>0</td><td>664321,14</td></tr>
+<tr><td>966</td><td>COMUNA SANTA CRUZ Y LA TUNA                       </td><td>257770,95</td><td>255824,04</td><td>1946,91</td><td>0</td><td>257770,95</td></tr>
+<tr><td>967</td><td>COMUNA VILLA BELGRANO                             </td><td>172866,9</td><td>172399,34</td><td>467,56</td><td>0</td><td>172866,9</td></tr>
+<tr><td>968</td><td>COMUNA CIUDACITA                                  </td><td>560043,08</td><td>556389,47</td><td>3653,61</td><td>0</td><td>560043,08</td></tr>
+<tr><td>969</td><td>COMUNA SANTA LUCIA                                </td><td>438072,55</td><td>435706,94</td><td>2365,61</td><td>0</td><td>438072,55</td></tr>
+<tr><td>970</td><td>COMUNA EL MOLLAR                                  </td><td>456167,61</td><td>454626,31</td><td>1541,3</td><td>0</td><td>456167,61</td></tr>
+<tr><td>971</td><td>COMUNA 7 DE ABRIL                                 </td><td>298702,13</td><td>297456,76</td><td>1245,37</td><td>0</td><td>298702,13</td></tr>
+<tr><td>972</td><td>COMUNA GOBERNADOR GARMENDIA                       </td><td>1991250,7</td><td>1954290,35</td><td>36960,35</td><td>0</td><td>1991250,7</td></tr>
+<tr><td>973</td><td>COMUNA EL CHAÛAR                                  </td><td>407625,27</td><td>406923,93</td><td>701,34</td><td>0</td><td>407625,27</td></tr>
+<tr><td>974</td><td>COMUNA ESTACION ARAOZ Y TACANAS                   </td><td>1090194,48</td><td>1077543,54</td><td>12650,94</td><td>0</td><td>1090194,48</td></tr>
+<tr><td>975</td><td>COMUNA EL MOJON                                   </td><td>662914,59</td><td>657318,38</td><td>5596,21</td><td>0</td><td>662914,59</td></tr>
+<tr><td>976</td><td>COMUNA LAS TALAS                                  </td><td>556833,86</td><td>556833,86</td><td>0</td><td>0</td><td>556833,86</td></tr>
+<tr><td>977</td><td>COMUNA ANCA JULI                                  </td><td>54715,06</td><td>54076,19</td><td>638,87</td><td>0</td><td>54715,06</td></tr>
+<tr><td>978</td><td>COMUNA LOS PEREZ                                  </td><td>425445,54</td><td>416568,42</td><td>8877,12</td><td>0</td><td>425445,54</td></tr>
+<tr><td>979</td><td>COMUNA LOS PEREYRAS                               </td><td>291040,81</td><td>288216,26</td><td>2824,55</td><td>0</td><td>291040,81</td></tr>
+<tr><td>980</td><td>COMUNA LOS BULACIO-LOS VILLAGRA                   </td><td>1552675,81</td><td>1533979,49</td><td>18696,32</td><td>0</td><td>1552675,81</td></tr>
+<tr><td>981</td><td>COMUNA LA FLORIDA-LUISIANA                        </td><td>895647,09</td><td>893297,75</td><td>2349,34</td><td>0</td><td>895647,09</td></tr>
+<tr><td>982</td><td>COMUNA DE ACHERAL                                 </td><td>570609,58</td><td>562511,53</td><td>8098,05</td><td>0</td><td>570609,58</td></tr>
+<tr><td>983</td><td>COMUNA DE RIO SECO                                </td><td>277812,29</td><td>275356,8</td><td>2455,49</td><td>0</td><td>277812,29</td></tr>
+<tr><td>984</td><td>COMUNA DE ESCABA                                 </td><td>103759,67</td><td>103759,67</td><td>0</td><td>0</td><td>103759,67</td></tr>
+<tr><td>985</td><td>COMUNA EL SACRIFICIO                              </td><td>538101,31</td><td>530121,24</td><td>7980,07</td><td>0</td><td>538101,31</td></tr>
+<tr><td>986</td><td>COMUNA HUASA PAMPA                                </td><td>64291,24</td><td>64291,24</td><td>0</td><td>0</td><td>64291,24</td></tr>
+<tr><td>987</td><td>COMUNA DE RUMI PUNCO                              </td><td>84423,24</td><td>83816,11</td><td>607,13</td><td>0</td><td>84423,24</td></tr>
+<tr><td>988</td><td>COMUNA SAN IGNACIO                                </td><td>109800,79</td><td>103936,88</td><td>5863,91</td><td>0</td><td>109800,79</td></tr>
+<tr><td>989</td><td>COMUNA DE SAN PEDRO DE COLALAO                    </td><td>299108,68</td><td>288530,47</td><td>10578,21</td><td>0</td><td>299108,68</td></tr>
+<tr><td>990</td><td>COMUNA EL CERCADO                                 </td><td>618626,88</td><td>609107,65</td><td>9519,23</td><td>0</td><td>618626,88</td></tr>
+<tr><td>991</td><td>COMUNA DE COLOMBRES                               </td><td>669650,72</td><td>664356,42</td><td>5294,3</td><td>0</td><td>669650,72</td></tr>
+<tr><td>992</td><td>COMUNA DE MEDINAS                                 </td><td>246272,98</td><td>239680,91</td><td>6592,07</td><td>0</td><td>246272,98</td></tr>
+</table>

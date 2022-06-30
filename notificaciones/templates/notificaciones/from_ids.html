@@ -1,0 +1,125 @@
+<form action="" method="post" enctype="multipart/form-data"><input type="hidden" name="csrfmiddlewaretoken" value="6xuDtIAx5RV4456GSPkFQljnAsVoC3Mp3rJ1JbLrwL6EJ25v1ISEsTbCTVgYNw26">
+        <div class="mb-4 border-bottom border-dark">
+            <h2>Editar Notificación</h2>
+        </div>
+        <div class="container">
+            
+            <div class="form-group row">
+                <label for="Titulo" class="form-label">Titulo</label>
+                <input type="text" name="titulo" value="asdasd" maxlength="255" class="form-control" required="" id="id_titulo">
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Descipcion" class="form-label">Descipcion</label>
+                <textarea name="descipcion" cols="40" rows="10" class="form-control" required="" id="id_descipcion">Otra descripcion</textarea>
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Archivo1" class="form-label">Archivo1</label>
+                Actualmente: <a href="/media/content/2/2022-05-16-CMIE0016593.pdf">content/2/2022-05-16-CMIE0016593.pdf</a>
+<input type="checkbox" name="archivo1-clear" id="archivo1-clear_id">
+<label for="archivo1-clear_id">Limpiar</label><br>
+Modificar:
+<input type="file" name="archivo1" class="form-control" id="id_archivo1">
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Archivo2" class="form-label">Archivo2</label>
+                Actualmente: <a href="/media/content/2/9-5-2022.xlsx">content/2/9-5-2022.xlsx</a>
+<input type="checkbox" name="archivo2-clear" id="archivo2-clear_id">
+<label for="archivo2-clear_id">Limpiar</label><br>
+Modificar:
+<input type="file" name="archivo2" class="form-control" id="id_archivo2">
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Archivo3" class="form-label">Archivo3</label>
+                Actualmente: <a href="/media/content/2/2022-05-16-mcta0004786.pdf">content/2/2022-05-16-mcta0004786.pdf</a>
+<input type="checkbox" name="archivo3-clear" id="archivo3-clear_id">
+<label for="archivo3-clear_id">Limpiar</label><br>
+Modificar:
+<input type="file" name="archivo3" class="form-control" id="id_archivo3">
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Archivo4" class="form-label">Archivo4</label>
+                <input type="file" name="archivo4" class="form-control" id="id_archivo4">
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Archivo5" class="form-label">Archivo5</label>
+                <input type="file" name="archivo5" class="form-control" id="id_archivo5">
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Usuario remitente" class="form-label">Usuario remitente</label>
+                <select name="usuario_remitente" class="form-control" required="" id="id_usuario_remitente">
+  <option value="">---------</option>
+
+  <option value="1">fcarreno</option>
+
+  <option value="2" selected="">caeto</option>
+
+  <option value="3">ceci</option>
+
+  <option value="4">emiliano</option>
+
+</select>
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Depto rem" class="form-label">Depto rem</label>
+                <select name="depto_rem" class="form-control" required="" id="id_depto_rem">
+  <option value="">---------</option>
+
+  <option value="1">Emision</option>
+
+  <option value="2">Dpto. Financiero</option>
+
+  <option value="3" selected="">dpto tecnico</option>
+
+</select>
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Usuarios notif" class="form-label">Usuarios notif</label>
+                <textarea name="usuarios_notif" cols="40" rows="10" class="form-control" id="id_usuarios_notif"></textarea>
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Deptos notif" class="form-label">Deptos notif</label>
+                <select name="deptos_notif" class="form-control" id="id_deptos_notif" multiple="">
+  <option value="1" selected="">Emision</option>
+
+  <option value="2">Dpto. Financiero</option>
+
+  <option value="3" selected="">dpto tecnico</option>
+
+</select>
+                <div class="form-text"></div>
+            </div> 
+            
+            <div class="form-group row">
+                <label for="Anotaciones" class="form-label">Anotaciones</label>
+                <textarea name="anotaciones" cols="40" rows="10" class="form-control" id="id_anotaciones">anotaciones</textarea>
+                <div class="form-text"></div>
+            </div> 
+            
+        </div>
+
+
+            <div class="text-center mt-5">
+                <input type="submit" class="btn btn-primary btn-block" value="Procesar Archivo">
+            </div>
+
+    </form>

@@ -1,0 +1,109 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class="container-fluid">
+	<form method="post" enctype="multipart/form-data">
+		{% csrf_token %}
+	<div class="row">
+		<div class="w-50">
+			<h4>Notificación n° {{object.id}}</h4>
+			{{form.titulo.label_tag}}		
+			{{form.titulo}}
+			{{form.descripcion.label_tag}}		
+			{{form.descripcion}}
+			<p>
+			Usuario Remitente: 		
+			<strong>{{ object.usuario_remitente }}</strong>
+			</p>
+			<p>
+			Dpto Remitente: 
+			<strong>{{object.depto_rem}}</strong>	
+			</p>
+	
+		</div>
+		<div class="w-25 overflow-auto">
+			<h4>Adjuntos</h4>
+			<!-- Adjunto 1 -->
+			{% if form.archivo1.value %}
+				<a target="_blank" href="./../../../media/{{ form.archivo1.value }}">
+					<p>adjunto 1: {{form.archivo1.value|stringformat:'s'}}</p>
+				</a>
+			{% else %}
+					{{form.archivo1.label_tag}}		
+					{{form.archivo1}}
+			{% endif %}
+			<!-- Adjunto 2 -->
+			{% if form.archivo2.value %}
+				<a href="./../../../media/{{ form.archivo2.value }}">
+					<p>adjunto 2: {{form.archivo2.value|stringformat:'s'}}</p>
+				</a>
+			{% else %}
+					{{form.archivo2.label_tag}}		
+					{{form.archivo2}}
+			{% endif %}
+			<!-- Adjunto 3 -->
+			{% if form.archivo3.value %}
+				<a href="./../../../media/{{ form.archivo3.value }}">
+					<p>adjunto 3: {{form.archivo3.value|stringformat:'s'}}</p>				
+				</a>
+			{% else %}
+					{{form.archivo3.label_tag}}		
+					{{form.archivo3}}
+			{% endif %}
+			<!-- Adjunto 4 -->
+			{% if form.archivo4.value %}
+				<a href="./../../../media/{{ form.archivo4.value }}">
+					<p>adjunto 4: {{form.archivo4.value|stringformat:'s'}}</p>				
+				</a>
+			{% else %}
+					{{form.archivo4.label_tag}}		
+					{{form.archivo4}}
+			{% endif %}
+			<!-- Adjunto 5 -->
+			{% if form.archivo5.value %}
+				<a href="./../../../media/{{ form.archivo5.value }}">
+					<p>adjunto 5: {{form.archivo5.value|stringformat:'s'}}</p>
+				</a>
+			{% else %}
+					{{form.archivo5.label_tag}}		
+					{{form.archivo5}}
+			{% endif %}
+		</div>
+		<div class="w-25">
+			<h4>Anotaciones</h4>
+			{{form.anotaciones.label_tag}}		
+			{{form.anotaciones}}
+			<p class="mb-0">Dptos. Destinatarios</p>
+			<ul>
+			{% for group in object.deptos_destino.all %}
+      			<li>{{group}}</li>
+     		 {% endfor %}				
+			</ul>
+
+			<p class="mb-0">Dptos. Notificados</p>
+			<ul>
+			{% for group in object.deptos_notif.all %}
+      			<li>{{group}}</li>
+      		{% endfor %}
+				
+			</ul>
+
+			<div class="pt-3">
+				<input type="submit" class="btn btn-primary btn-block" name="guardar" value="Guardar" />
+				{% if anterior %}
+				<a class="btn btn-danger link-light" href="javascript: history.go(-1)" >Salir</a>
+				{% else %}
+				<a class="btn btn-danger link-light" href="{% url 'notificaciones' %}" >Salir</a>
+				{% endif %}
+				{% if not grupo_user in lista_dptos_notif %}
+				{% if grupo_user in lista_dptos_dest %}
+				<input class="btn btn-success"type="submit" name="notificado" value="notificado">
+				{% endif %}
+				{% endif %}
+
+			</div>
+
+		</div>
+	</div>
+</form>
+</div>
+{% endblock content %}

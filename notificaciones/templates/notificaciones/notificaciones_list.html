@@ -1,0 +1,104 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="d-flex flex-row align-items-center flex-nowrap">
+        <h1 class="w-75">Notificaciones Departamentales - TGP</h1>
+        <div class="d-flex flex-row-reverse w-25">
+          <a  href="{% url 'notificaciones_create' %}" class="btn btn-primary link-light">+ Crear Notif.</a> 
+        </div>
+ 
+      </div>
+
+    </div>
+    <div class="row align-items-center">
+      <ul class='d-flex flex-row'>
+        <a class="navbar-brand" href="{% url 'notificaciones' %}">Recibidas</a>
+        <a class="navbar-brand" href="{% url 'notificaciones_f' status='pendientes' %}">Pendientes</a>
+        <a class="navbar-brand" href="{% url 'notificaciones_f' status='notificadas' %}">Notificadas</a>
+        <a class="navbar-brand" href="{% url 'notificaciones_f' status='enviadas' %}">Enviadas</a>
+      </ul>
+      {% if filtro %}
+        <p class="mb-0">Se muestran las comunicaciones <strong>{{filtro}}</strong> de tu dpto.</p>
+      {% else %}
+        <p class="mb-0">Se muestran <strong>todas</strong> las comunicaciones <strong>recibidas</strong> de tu dpto.</p>
+      {% endif %}
+
+      <p></p>
+    </div>
+    {% if object_list %}
+    <table class="table table-sm table-bordered table-striped">
+      <tr class="table-dark align-middle border">
+        <th class="columna_num">Id</th>
+        <th class="col-1">Fecha</th>
+        <th class="col-2">Título</th>
+        <th>Descripción</th>
+        <th class="col-1">Dpto. Rem</th>
+        <th class="col-1">Adjuntos</th>
+        <th class="col-2">Dptos. Notif.</th>
+      </tr>
+      {% for n in object_list %}
+        <tr  class="p-0 tr-click" onclick="window.location.href='{% url 'notificaciones_update' n.id %}'">
+          <td class="pb-0"><strong>{{n.id}}</strong></td>
+          <td class="pb-0"><strong>{{n.created|date:'d/m/Y'}}</strong></td>
+          <td class="pb-0">{{n.titulo}}</td>
+          <td class="pb-0">{{n.descripcion}}</td>
+          <td class="pb-0">{{n.depto_rem}}</td>
+          <td class="align-top pb-0">
+            <ul class="pb-0 pt-0 mb-0">
+              {% if n.archivo1 %}
+                <li><a target="_blank" href="./../../../media/{{ n.archivo1 }}">Adjunto 1</a></li>
+              {% endif %}
+      
+              {% if n.archivo2 %}
+                <li><a target="_blank" href="./../../../media/{{ n.archivo2 }}">Adjunto 2</a></li>
+              {% endif %}
+              
+              {% if n.archivo3 %}
+                <li><a target="_blank" href="./../../../media/{{ n.archivo3 }}">Adjunto 3</a></li>
+              {% endif %}
+              
+              {% if n.archivo4 %}
+                <li><a target="_blank" href="./../../../media/{{ n.archivo4 }}">Adjunto 4</a></li>
+              {% endif %}
+              
+              {% if n.archivo5 %}
+                <li><a target="_blank" href="./../../../media/{{ n.archivo5 }}">Adjunto 5</a></li>
+              {% endif %}
+            </ul>
+          </td>
+          <td class="pb-0">
+            <ul class="mb-0">
+              {% for group in n.deptos_notif.all %}
+                <li>{{group}}</li>
+              {% endfor %}
+            </ul>
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+    <div class="pagination">
+            <span class="step-links">
+                {% if page_obj.has_previous %}
+                    <a href="?page=1">&larrb; primera</a>
+                    <a href="?page={{ page_obj.previous_page_number }}">&larr;ant.</a>
+                {% endif %}
+
+                <span class="current">
+                    Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}.
+                </span>
+
+                {% if page_obj.has_next %}
+                    <a href="?page={{ page_obj.next_page_number }}">&rarr; sig.</a>
+                    <a href="?page={{ page_obj.paginator.num_pages }}">última &rarrb;</a>
+                {% endif %}
+            </span>
+        </div>
+  
+    {% else %}
+      <p>No hay Notificaciones</p>
+    {% endif %}
+  </div>
+{% endblock %}
+

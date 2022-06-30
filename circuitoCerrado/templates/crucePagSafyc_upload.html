@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="container mt-3 col-12 col-lg-6">
+    <form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+        <div class="mb-4 border-bottom border-dark">
+            <h2>Cruce Página con Safyc para Circuito Cerrado</h2>
+        </div>
+        <div class="container">
+            {% for field in form %}
+            <div class="form-group row">
+                <label for="{{ field.label }}" class="form-label">{{ field.label }}</label>
+                {{field}}
+                <div class="form-text">{{field.errors}}</div>
+            </div> 
+            {% endfor %}
+        </div>
+
+
+            <div class="text-center mt-1">
+                <input type="submit" class="btn btn-primary btn-block" value="Procesar Archivo" />
+            </div>
+
+    </form>
+</div>
+
+
+{% endblock content %}

@@ -1,0 +1,63 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class="container-fluid">
+	<h1>Instructivo interno n° {{object.id}} <a class="text-decoration-none" href="{% url 'instructivos' %}">&larr;</a></h1>
+	<div class="d-flex align-items-baseline flex-row border rounded-top border-dark">
+		<div class="p-3 h4">Título:</div>
+		<div class="p-3 h4">{{object.titulo}}</div>
+	</div>
+	<div class="d-flex align-items-baseline flex-row border border-dark">
+		<div class="p-3 h4">Departamento:</div>
+		<div class="p-3 h4">{{object.departamento}}</div>
+	</div>	
+	<div class="d-flex align-items-baseline flex-row border border-dark">
+		<div class="p-3 h4">Fecha de Creación:</div>
+		<div class="p-3 h4">{{object.created|date:'d/m/Y'}}</div>
+	</div>
+	<div class="d-flex align-items-center flex-row border border-dark pb-1">	
+		<div class="h4 p-3">Descripción:</div>
+		<div>{{object.descripcion}}</div>
+	</div>
+	<div class="d-flex flex-row border border-dark bg-dark text-light">	
+		<div class="px-3 pt-3 h4">Instructivo:</div>
+	</div>
+	{% if not object.archivo1 and not object.archivo2 and not object.archivo3 %}
+	<div class="d-flex flex-row border border-dark rounded-bottom">	
+		<div class="px-3 pt-3">{{object.contenido|safe}}</div>
+	</div>
+	{% else %}
+		<div class="d-flex flex-row border border-dark">	
+			<div class="px-3 pt-3">{{object.contenido|safe}}</div>
+		</div>
+		<div class="d-flex align-items-baseline flex-row border border-dark rounded-bottom">	
+			<div class="px-3 pt-3 h4">Adjuntos:</div>
+			{% if object.archivo1 %}
+        <a class="m-3 h6" target="_blank" href="./../../../media/{{ object.archivo1 }}">{{archivo1_nombre}}
+        </a>
+      {% endif %}
+
+      {% if object.archivo2 %}
+        <a class="m-3 h6" target="_blank" href="./../../../media/{{ object.archivo2 }}">{{archivo2_nombre}}
+        </a>
+      {% endif %}
+      
+      {% if object.archivo3 %}
+        <a class="m-3 h6" target="_blank" href="./../../../media/{{ object.archivo3 }}">{{archivo3_nombre}}
+        </a>
+      {% endif %}	
+		</div>
+	{% endif %}	
+	<div class="d-flex flex-column justify-content-center">
+		<br>
+		<a href="{% url 'instructivos' %}" class="btn btn-primary">Volver</a>	
+	</div>
+	
+
+	<div>
+		
+	</div>
+
+</div>
+
+
+{% endblock %}

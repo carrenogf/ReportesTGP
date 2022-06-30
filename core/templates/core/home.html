@@ -1,0 +1,15 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block home %}
+	<img src="{% static 'core/img/colegas.jpg' %}" class="img-fluid" alt="Responsive image">
+    <div class="home">
+        <h1 bg-prymary>Bienvenido</h1>
+        <br>
+        <p>Página web con herramientas de trabajo internas de la Tesorería gral. de la Provincia de Tucumán</p>
+        <p>Aquí encontrarás funcionalidades para procesar reportes del SAFyC y registros varios.</p>
+        <a href="{% url 'reportes' %}">ir a reportes</a>
+    </div>
+
+{% endblock home %}
+    

@@ -1,0 +1,46 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class="container-fluid">
+	<form method="post" enctype="multipart/form-data">
+		{% csrf_token %}
+	<div class="row">
+		<div class="w-50">
+			<h4>Crear Notificación</h4>
+			{{form.titulo.label_tag}}		
+			{{ form.titulo }}
+			{{form.descripcion.label_tag}}
+			{{ form.descripcion }}
+			{{ form.deptos_destino.label_tag}}
+			{{ form.deptos_destino}}
+
+		</div>
+		<div class="w-25 overflow-auto">
+			<h4>Adjuntos</h4>
+			{{form.archivo1.label_tag}}		
+			{{form.archivo1}}
+
+			{{form.archivo2.label_tag}}		
+			{{form.archivo2}}
+	
+			{{form.archivo3.label_tag}}		
+			{{form.archivo3}}
+	
+			{{form.archivo4.label_tag}}		
+			{{form.archivo4}}
+	
+			{{form.archivo5.label_tag}}		
+			{{form.archivo5}}
+		</div>
+			<div class="w-25">
+				<h4>Anotaciones</h4>
+				{{form.anotaciones.label_tag}}		
+				{{form.anotaciones}}
+				<div class="pt-3">
+					<input type="submit" class="btn btn-primary btn-block" value="Guardar" />
+					<a class="btn btn-danger link-light" href="{% url 'notificaciones' %}">Salir</a>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+{% endblock content %}

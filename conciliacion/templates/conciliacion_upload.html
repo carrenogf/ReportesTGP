@@ -1,0 +1,31 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="container mt-3 col-12 col-lg-6">
+    <form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+        <div class="mb-4 border-bottom border-dark">
+            <h2>Cruce automático para conciliación bancaria</h2>
+        </div>
+        <p>Realiza un punteo entre la el libro banco detallado con glosa extraido del SAFyC con el resumen de movimientos en Excel de la página del banco <a href="https://www.macro.com.ar/biempresas/#" target="_blank">Macro</a>.</p>
+        <strong>Se recomienda comparar periodos iguales.</strong>
+
+        <div class="container mt-3">
+            {% for field in form %}
+            <div class="form-group row">
+                <label for="{{ field.label }}" class="form-label">{{ field.label }}</label>
+                {{field}}
+                <div class="form-text">{{field.errors}}</div>
+            </div> 
+            {% endfor %}
+        </div>
+
+
+            <div class="text-center mt-1">
+                <input type="submit" class="btn btn-primary btn-block" value="Procesar Archivos" />
+            </div>
+
+    </form>
+</div>
+
+
+{% endblock content %}
